@@ -1,0 +1,20 @@
+parameter,value,unit,source
+yield_fos,1.25,factor,Selected metallic protoflight screen; NASA-STD-5001B Table 1 applicability must be reviewed
+ultimate_fos,1.4,factor,Selected metallic screen; not complete human-rating qualification
+pressure_fos,1.5,factor,Conceptual design assumption; replace with qualified data
+buckling_knockdown,0.3,factor,Conceptual design assumption; replace with qualified data
+load_uncertainty,1.15,factor,Conceptual design assumption; replace with qualified data
+shell_min_m,0.003,m,Conceptual design assumption; replace with qualified data
+effective_skin_m,0.006,m,Conceptual design assumption; replace with qualified data
+stiffener_mass_fraction,0.35,fraction,Conceptual design assumption; replace with qualified data
+engine_frame_mass_per_N,0.00012,kg/N,Conceptual design assumption; replace with qualified data
+joint_mass_per_m,20,kg/m circumference,Conceptual design assumption; replace with qualified data
+bolt_allowable_N,45000,N/bolt,Conceptual design assumption; replace with qualified data
+joint_bolts,96,count,Conceptual design assumption; replace with qualified data
+joint_lever_arm_m,1.8,m,Conceptual design assumption; replace with qualified data
+baffle_count,3,per tank,Conceptual design assumption; replace with qualified data
+baffle_width_m,0.15,m,Conceptual design assumption; replace with qualified data
+baffle_thickness_m,0.003,m,Conceptual design assumption; replace with qualified data
+isogrid_pitch_m,0.3,m,Conceptual design assumption; replace with qualified data
+isogrid_rib_height_m,0.025,m,Conceptual design assumption; replace with qualified data
+isogrid_rib_width_m,0.004,m,Conceptual design assumption; replace with qualified data

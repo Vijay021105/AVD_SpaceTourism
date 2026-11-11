@@ -1,0 +1,11 @@
+altitude_m,east_mps,north_mps,source
+0,3,1,Assumed design wind; not launch weather
+1000,5,2,Assumed design wind; not launch weather
+3000,10,3,Assumed design wind; not launch weather
+6000,16,5,Assumed design wind; not launch weather
+10000,25,8,Assumed design wind; not launch weather
+15000,30,5,Assumed design wind; not launch weather
+20000,15,2,Assumed design wind; not launch weather
+40000,5,0,Assumed design wind; not launch weather
+80000,0,0,Assumed design wind; not launch weather
+150000,0,0,Assumed design wind; not launch weather

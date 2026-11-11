@@ -1,0 +1,16 @@
+parameter,value,unit,source
+modal_damping,0.02,ratio,Conceptual design assumption; replace with qualified data
+OASPL_dB,145,dB re 20uPa,Conceptual design assumption; replace with qualified data
+buffet_rms_q_fraction,0.005,ratio,Conceptual design assumption; replace with qualified data
+pogo_feed_Hz,8,Hz,Conceptual design assumption; replace with qualified data
+pogo_struct_Hz,10,Hz,Conceptual design assumption; replace with qualified data
+pogo_feed_damping,0.04,ratio,Conceptual design assumption; replace with qualified data
+pogo_struct_damping,0.02,ratio,Conceptual design assumption; replace with qualified data
+pogo_loop_gain,0.15,dimensionless,Conceptual design assumption; replace with qualified data
+pogo_delay_s,0.03,s,Conceptual design assumption; replace with qualified data
+ground_wind_mps,20,m/s,Conceptual design assumption; replace with qualified data
+gust_factor,1.5,ratio,Conceptual design assumption; replace with qualified data
+separation_push_N,20000,N,Conceptual design assumption; replace with qualified data
+separation_push_duration_s,0.15,s,Conceptual design assumption; replace with qualified data
+separation_clearance_m,2,m,Conceptual design assumption; replace with qualified data
+separation_tipoff_degps,0.5,deg/s,Conceptual design assumption; replace with qualified data

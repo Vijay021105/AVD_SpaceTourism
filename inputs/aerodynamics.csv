@@ -1,0 +1,12 @@
+parameter,value,unit,source
+base_cd,0.12,coefficient,Conceptual design assumption; replace with qualified data
+form_cd,0.08,coefficient,Conceptual design assumption; replace with qualified data
+wave_peak_cd,0.45,coefficient,Conceptual design assumption; replace with qualified data
+cnalpha_sub_per_rad,2,1/rad,Slender-body forebody approximation
+transition_Re,500000.0,Re,Conceptual design assumption; replace with qualified data
+alpha_reference_deg,3,deg,Conceptual design assumption; replace with qualified data
+uncertainty_fraction,0.25,fraction,Conceptual design assumption; replace with qualified data
+mach_max,30,Mach,Database screening extends beyond perfect-gas CFD validity
+cfd_max_total_temp_K,1500,K,Calorically perfect-gas model applicability screen
+cfd_residual_tolerance,1e-05,relative,Conceptual design assumption; replace with qualified data
+cfd_drag_change_tolerance,0.002,relative,Conceptual design assumption; replace with qualified data

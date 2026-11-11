@@ -1,0 +1,8 @@
+component,mass_kg,source
+crew_cabin_structure_and_TPS,4900,Conceptual design assumption; replace with qualified data
+crew_seats_life_support,2200,Conceptual design assumption; replace with qualified data
+trunk_power_avionics,1700,Conceptual design assumption; replace with qualified data
+crew_and_cargo,800,Conceptual design assumption; replace with qualified data
+rendezvous_propulsion_dry,700,Conceptual design assumption; replace with qualified data
+spacecraft_propellant,1200,Conceptual design assumption; replace with qualified data
+adapter_and_margin,1000,Conceptual design assumption; replace with qualified data

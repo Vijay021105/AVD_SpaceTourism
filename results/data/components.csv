@@ -1,0 +1,15 @@
+component,stage,z0_m,z1_m,radius_m,role
+S1_engine_bay,1,0.0,3.5,2.0,thrust frame and engine clearance
+S1_RP1,1,3.5,19.80963938381099,1.979,propellant tank
+S1_LOX,1,20.15963938381099,47.943090558310104,1.979,propellant tank
+S1_interstage,1,48.2930905583101,50.7930905583101,2.0,load carrying skirt; rigid-joint screen
+S2_engine_bay,2,50.7930905583101,54.1930905583101,2.0,thrust frame and engine clearance
+S2_RP1,2,54.1930905583101,59.27043929492518,1.979,propellant tank
+S2_LOX,2,59.620439294925184,67.89835332716315,1.979,propellant tank
+S2_interstage,2,68.24835332716314,70.54835332716314,2.0,load carrying skirt; rigid-joint screen
+S3_engine_bay,3,70.54835332716314,74.24835332716314,2.0,thrust frame and engine clearance
+S3_LH2,3,74.24835332716314,81.2623605116688,1.979,propellant tank
+S3_LOX,3,81.61236051166881,84.25519251861397,1.979,propellant tank
+S3_interstage,3,84.60519251861398,85.40519251861397,2.0,load carrying skirt; rigid-joint screen
+trunk,4,85.40519251861397,89.10519251861398,1.9,spacecraft trunk
+crew_capsule,4,89.10519251861398,93.50519251861398,1.9,conceptual crew outer mold line

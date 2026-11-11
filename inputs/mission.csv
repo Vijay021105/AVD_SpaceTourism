@@ -1,0 +1,28 @@
+parameter,value,unit,source
+payload_kg,12500,kg,User requirement 2026-11-11
+diameter_m,4,m,User requirement 2026-11-11
+orbit_altitude_m,400000,m,User requirement 2026-11-11
+inclination_deg,51.6,deg,User requirement 2026-11-11
+total_dv_budget_mps,11400,m/s,User requirement 2026-11-11
+spacecraft_dv_allocation_mps,300,m/s,Conceptual design assumption; replace with qualified data
+coast_periods,2,period,User requirement 2026-11-11
+phasing_revolutions,20,count,Conceptual design assumption; replace with qualified data
+phasing_fraction,0.25,turn,Non-integer arrival geometry avoids near-return shooting singularity
+bas_u0_deg,256,deg,Inherited orbit study phase; common liftoff epoch
+epoch_utc,2027-01-01T00:00:00Z,UTC,Conceptual design assumption; replace with qualified data
+site_lat_deg,8.3943,deg,Inherited Kulasekarapattinam vicinity; no range approval
+site_lon_deg,78.0516,deg,Inherited conceptual site
+site_height_m,26.4,m,Conceptual design assumption; replace with qualified data
+q_limit_Pa,45000,Pa,Conceptual design assumption; replace with qualified data
+qalpha_limit_Pa_rad,3000,Pa rad,Conceptual design assumption; replace with qualified data
+proper_g_limit,3.5,g,Conceptual design assumption; replace with qualified data
+liftoff_tw_min,1.15,ratio,Conceptual design assumption; replace with qualified data
+stage2_tw_min,0.65,ratio,Conceptual design assumption; replace with qualified data
+stage3_tw_min,0.45,ratio,Conceptual design assumption; replace with qualified data
+standoff_m,1000,m,Conceptual design assumption; replace with qualified data
+approach_duration_s,2400,s,Conceptual design assumption; replace with qualified data
+spacecraft_isp_s,320,s,Conceptual design assumption; replace with qualified data
+approach_thrust_available_N,400,N,Conceptual design assumption; replace with qualified data
+orbit_alt_tolerance_m,2000,m,Conceptual design assumption; replace with qualified data
+orbit_speed_tolerance_mps,2,m/s,Conceptual design assumption; replace with qualified data
+orbit_incl_tolerance_deg,0.1,deg,Conceptual design assumption; replace with qualified data

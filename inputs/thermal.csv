@@ -1,0 +1,18 @@
+parameter,value,unit,source
+sutton_graves_k,0.00017415,SI,Sutton-Graves earth-air correlation; screening
+emissivity,0.85,fraction,Conceptual design assumption; replace with qualified data
+initial_K,293,K,Conceptual design assumption; replace with qualified data
+bondline_limit_K,423,K,Conceptual design assumption; replace with qualified data
+tps_min_m,0.005,m,Conceptual design assumption; replace with qualified data
+tps_max_m,0.2,m,Conceptual design assumption; replace with qualified data
+cryo_foam_k_WmK,0.025,W/m/K,Conceptual design assumption; replace with qualified data
+cryo_foam_density_kgm3,45,kg/m3,Conceptual design assumption; replace with qualified data
+pad_hold_s,3600,s,Conceptual design assumption; replace with qualified data
+ambient_K,300,K,Conceptual design assumption; replace with qualified data
+base_heat_fraction,0.003,fraction of chamber chemical power,Conceptual design assumption; replace with qualified data
+combustion_energy_Jkg,12000000.0,J/kg mixture,Conceptual design assumption; replace with qualified data
+vent_Cd,0.65,coefficient,Conceptual design assumption; replace with qualified data
+vent_diff_pressure_Pa,3000,Pa,Conceptual design assumption; replace with qualified data
+bay_temperature_K,300,K,Conceptual design assumption; replace with qualified data
+LH2_vent_R_JkgK,4124,J/kg/K,Conceptual design assumption; replace with qualified data
+LOX_vent_R_JkgK,259.8,J/kg/K,Conceptual design assumption; replace with qualified data

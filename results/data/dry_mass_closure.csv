@@ -1,0 +1,4 @@
+stage,dry_budget_kg,estimated_hardware_kg,unallocated_dry_budget_kg,closure_pass,scope
+1,38597.202805854206,38596.40210730548,0.8006985487227212,True,Conceptual item mass screen; no missing subsystem can be assumed massless
+2,9308.438595493273,9147.085143221253,161.35345227202015,True,Conceptual item mass screen; no missing subsystem can be assumed massless
+3,5574.203379190045,5573.203345058756,1.000034131288885,True,Conceptual item mass screen; no missing subsystem can be assumed massless

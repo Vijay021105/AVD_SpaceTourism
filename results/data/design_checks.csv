@@ -1,0 +1,24 @@
+check,status,value,criterion,scope
+constrained_sizing,PASS,11100.00000000606,launcher ideal delta-v >= 11100.0 m/s and selected ignition T/W,conceptual numerical/model check
+dry_hardware_floor,PASS,0.8006985487227212,estimated hardware <= dry budgets; missing hardware still requires design,conceptual numerical/model check
+tank_capacity,PASS,0.0,mass-volume equality <0.01 kg,conceptual numerical/model check
+diameter,PASS,3.958,installed tanks inside 4 m envelope,conceptual numerical/model check
+engine_installation,OPEN,4.748593038111737,4 m radial and pairwise gimbal clearance; assumed supplier dimensions,conceptual numerical/model check
+orbit_injection,PASS,399999.99999988545,"altitude ±2 km, speed ±2 m/s, radial speed <2 m/s, inclination ±0.1 deg",conceptual numerical/model check
+ascent_integration_refinement,PASS,479.4115440928071,doubled fraction resolution: <1000 m and <2 m/s,conceptual numerical/model check
+dynamic_pressure,PASS,32903.64892826528,<= 45000.0 Pa,conceptual numerical/model check
+q_alpha,PASS,3000.000000000082,<= 3000.0 Pa rad,conceptual numerical/model check
+crew_acceleration,PASS,3.5006116704605668,<= 3.5 g; physiological qualification not established,conceptual numerical/model check
+phasing_shooting,PASS,2.184782717992487e-06,<10 m endpoint miss before velocity-match impulse,conceptual numerical/model check
+phasing_orbit_clearance,PASS,242096.32882029284,screening perigee >180 km,conceptual numerical/model check
+spacecraft_delta_v,PASS,161.89793534254235,within allocated 300 m/s; no double counting launcher ideal reserve,conceptual numerical/model check
+spacecraft_propellant,PASS,628.5300888816084,required propellant <= included payload propellant,conceptual numerical/model check
+approach_thrust,PASS,17.646708341798625,prescribed-path demand <= assumed available thrust,conceptual numerical/model check
+structural_screens,OPEN,-0.6775062093333608,all calculated metallic and buckling margins >=0; qualification work remains,conceptual numerical/model check
+TPS_ascent,PASS,422.9952987887043,bondline <= assumed 423 K for ascent only,conceptual numerical/model check
+cryo_boiloff_reserve,OPEN,0.02656666678495702,pad+ascent boiloff <= selected 1% liquid reserve; operational loading must account for losses,conceptual numerical/model check
+POGO_assumed_loop,OPEN,RHP_INSTABILITY,no unstable roots in supplied scalar delay loop; not flight validation,conceptual numerical/model check
+Euler_iterations,PASS,6,6 admissible cases must meet residual + force criteria,conceptual numerical/model check
+human_rating,OPEN,NOT_ESTABLISHED,"hazard analysis, abort/escape, FDIR, ECLSS, qualification, fracture control, contact dynamics and test evidence required",program verification gate
+viscous_separated_CFD,OPEN,NOT_IMPLEMENTED,"3-D transition/RANS/URANS, base/plume and incidence validation required",requested higher fidelity analysis
+aeroelastic_stability,OPEN,NOT_ESTABLISHED,two-way aerodynamic/structural/control coupling and flutter/divergence analysis required,requested higher fidelity analysis

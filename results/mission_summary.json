@@ -1,0 +1,441 @@
+{
+  "project": "TARA_LV",
+  "version": "1.0.0",
+  "mission": "Space tourism crew launch; two nominal periods; J2 phasing; docking approach",
+  "model_readiness": "CONCEPTUAL_RESEARCH_NOT_HUMAN_RATED",
+  "input_hashes": {
+    "aerodynamics.csv": "2698815b9d0aa2df7a498b4dd8d90cc130fb5c218675d73390522e5b9d6b2c56",
+    "dynamics.csv": "efce8f4fa4b46a8adabd605f2e122d20f1b7ed164c087ce4f0be9e7075b59d45",
+    "engines.csv": "2cb007a6a066a84b70c87384dade3ee6cf71e33ce18905132d030cb7915329a8",
+    "fluids.csv": "91fb232f2a782882239d4353b89f031be12a4e542150dd01696660b52273dbbf",
+    "geometry.csv": "5ca69eb39ada979d18faa0dde2c578365ab45a990d9f6696746d8ce3ef62ff99",
+    "guidance.csv": "a14dea526848c79f7e9c246018be91beb9e74ce21ed71c5e3e5abf3c73c24edf",
+    "human_rating.csv": "bdc977ca1308eee1d3775e0218a38c2b2ad70f3342e37414fb887d390f2346d7",
+    "materials.csv": "8adeae0d2682a08231bb63aa22dad8e04a68fd1a8a2f39fb7754831facd4df55",
+    "mission.csv": "21643e7d0467be3f040eab289cd22765a08030917bce11db0a205c3267efbcd2",
+    "payload.csv": "02135a23fb9ff882eee9037379dae4857dbd3494a732dad9331bb0a473efb137",
+    "stages.csv": "e671aca39e5ceae3ffb62804a0cc8a43a4d7a0abd2bb9675fbbe818e125d23f3",
+    "structures.csv": "a69132f7f5d89b13cee8a82c55554216989371dec8921ba81952bcc1d49b7e9b",
+    "thermal.csv": "39d5eb4d5411f7bee8cd9ce299a4f9f8e11ae3a8c4828f9416064b52d4005ad0",
+    "wind.csv": "50af19c9c60e9ad103be2dd4443be4dd29d76375aa687b30e694684f9d8c5056"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "sizing": {
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "target_launcher_dv_mps": 11100.0,
+    "achieved_dv_mps": 11100.00000000606,
+    "minimum_scaled_constraint": 2.4424906541753444e-15,
+    "objective": "minimum liftoff mass at selected structural factors",
+    "conditional_on": "assumed structural factors; engine performance; dry floors; no global optimum proof",
+    "hardware_floor_converged": true,
+    "coupling_iterations": 8
+  },
+  "installation": {
+    "static_packing_diameter_m": 4.243089730175318,
+    "static_feasible_in_search": false,
+    "packing_optimizer_success": true,
+    "gimbal_envelope_diameter_m": 4.748593038111737,
+    "pairwise_gimbal_clearance_m": -0.5305033079364179,
+    "gimbal_installation_pass": false,
+    "note": "Exit diameter length and gimbal assumptions need supplier data; local packing is not a global impossibility proof"
+  },
+  "flight": {
+    "a_m": 6778137.000000074,
+    "eccentricity": 2.910500002987943e-14,
+    "inclination_deg": 51.59999999999997,
+    "RAAN_deg": 5.502623953150761,
+    "argument_latitude_deg": 207.3278163800321,
+    "perigee_altitude_m": 399999.99999987613,
+    "apogee_altitude_m": 400000.000000271,
+    "specific_energy_Jkg": -29403392.24480087,
+    "final_altitude_m": 399999.99999988545,
+    "final_speed_mps": 7668.558175407226,
+    "final_radial_speed_mps": -6.730260793119669e-11,
+    "injection_time_s": 1008.6575492743586,
+    "max_q_Pa": 32903.64892826528,
+    "max_qalpha_Pa_rad": 3000.000000000082,
+    "max_proper_g": 3.5006116704605668,
+    "optimizer_success": true,
+    "integrated_thrust_dv_mps": 9887.32439958386,
+    "drag_loss_mps": 29.919160598724385,
+    "gravity_projection_loss_mps": 1372.4226280306054,
+    "remaining_stage3_propellant_kg": 6721.505035213762,
+    "crew_separation_mass_kg": 12500.0,
+    "orbit_target_pass": true,
+    "integration_refinement_position_m": 479.4115440928071,
+    "integration_refinement_velocity_mps": 0.7091560376826767
+  },
+  "rendezvous": {
+    "nominal_period_s": 5553.624271252228,
+    "two_period_wait_s": 11107.248542504456,
+    "actual_phase_at_departure_deg": 112.44565509159224,
+    "phasing_revolutions": 20,
+    "phasing_fraction": 0.25,
+    "phasing_duration_s": 110726.22227254228,
+    "departure_dv_mps": 77.16418802401337,
+    "arrival_dv_mps": 81.89338586516782,
+    "approach_dv_mps": 2.8403614533611807,
+    "total_spacecraft_dv_mps": 161.89793534254235,
+    "dv_allocation_mps": 300.0,
+    "dv_reserve_mps": 138.10206465745765,
+    "required_propellant_kg": 628.5300888816084,
+    "available_propellant_kg": 1200.0,
+    "arrival_position_error_m": 2.184782717992487e-06,
+    "shooting_success": true,
+    "phasing_min_altitude_m": 242096.32882029284,
+    "max_approach_thrust_N": 17.646708341798625,
+    "docking_time_s": 125242.12836432109,
+    "final_distance_m": 0.0,
+    "final_relative_speed_mps": 0.0,
+    "docking_model": "prescribed smooth relative path; inverse-dynamics acceleration screen; no sensor/contact/GNC simulation",
+    "kinematic_mission_budget_pass": true
+  },
+  "thermal": {
+    "peak_stagnation_flux_Wm2": 60320.793274017946,
+    "integrated_heat_Jm2": 4860438.463299466,
+    "TPS_thickness_m": 0.005124225616455078,
+    "max_bondline_K": 422.9952987887043,
+    "bondline_limit_K": 423.0,
+    "TPS_screen_pass": true,
+    "TPS_nose_area_mass_kg": 17.43438260480723,
+    "cryo_reserve_pass": false,
+    "scope": "Ascent only; insulation and plume screens; no re-entry thermal qualification; TPS mass audited against payload allowance"
+  },
+  "dynamics": {
+    "first_wet_bending_Hz": 0.5623882750678398,
+    "first_ground_mode_Hz": 0.10545088923728524,
+    "shedding_Hz": 1.0,
+    "ground_tip_deflection_m": 2.6283363365064014,
+    "ground_base_moment_Nm": 12649681.06934449,
+    "acoustic_RMS_g": 0.0025025255463126243,
+    "pogo_status": "RHP_INSTABILITY",
+    "assumed_acoustic_OASPL_dB": 145.0,
+    "pogo_transient_end_s": 0.904,
+    "pogo_transient_linear_limit_reached": true,
+    "note": "Linear response to assumed spectra and loop; no validated acoustic source or coupled aeroservoelastic solution"
+  },
+  "loads": {
+    "lateral_force_equilibrium_relative_error": 7.687165418622238e-16
+  },
+  "liftoff_mass_kg": 728534.5128650459,
+  "height_m": 93.50519251861398,
+  "diameter_m": 4.0,
+  "stages": [
+    {
+      "stage": 1,
+      "engine_id": "M1D_standard",
+      "engine_count": 10,
+      "propellant_kg": 492174.44457874855,
+      "usable_propellant_kg": 487252.70013296104,
+      "reserve_kg": 4921.744445787485,
+      "dry_kg": 38597.202805854206,
+      "upper_stack_kg": 197762.86548044317,
+      "ignition_mass_kg": 728534.5128650459,
+      "cutoff_mass_kg": 241281.81273208486,
+      "epsilon_budget": 0.065,
+      "epsilon_effective": 0.07271903651229934,
+      "dv_ideal_mps": 3196.9235110359905,
+      "ignition_tw": 1.1827307900318564,
+      "full_flow_kgps": 3055.532623994147,
+      "minimum_burn_s": 159.46571681372905
+    },
+    {
+      "stage": 2,
+      "engine_id": "M1D_standard",
+      "engine_count": 2,
+      "propellant_kg": 139565.53799606126,
+      "usable_propellant_kg": 138169.88261610066,
+      "reserve_kg": 1395.6553799606127,
+      "dry_kg": 9308.438595493273,
+      "upper_stack_kg": 48888.88888888862,
+      "ignition_mass_kg": 197762.86548044317,
+      "cutoff_mass_kg": 59592.982864342506,
+      "epsilon_budget": 0.06,
+      "epsilon_effective": 0.06252562609401899,
+      "dv_ideal_mps": 3658.4108852142335,
+      "ignition_tw": 0.9610203045486839,
+      "full_flow_kgps": 611.1065247988294,
+      "minimum_burn_s": 226.09786838977854
+    },
+    {
+      "stage": 3,
+      "engine_id": "CE32_project_CE20_proxy",
+      "engine_count": 1,
+      "propellant_kg": 30814.685509698575,
+      "usable_propellant_kg": 30506.538654601587,
+      "reserve_kg": 308.14685509698575,
+      "dry_kg": 5574.203379190045,
+      "upper_stack_kg": 12500.0,
+      "ignition_mass_kg": 48888.88888888862,
+      "cutoff_mass_kg": 18382.350234287034,
+      "epsilon_budget": 0.11,
+      "epsilon_effective": 0.15318421500064358,
+      "dv_ideal_mps": 4244.665603755837,
+      "ignition_tw": 0.45000000000000245,
+      "full_flow_kgps": 49.717514124293785,
+      "minimum_burn_s": 613.5974252118729
+    }
+  ],
+  "checks": [
+    {
+      "check": "constrained_sizing",
+      "status": "PASS",
+      "value": 11100.00000000606,
+      "criterion": "launcher ideal delta-v >= 11100.0 m/s and selected ignition T/W",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "dry_hardware_floor",
+      "status": "PASS",
+      "value": 0.8006985487227212,
+      "criterion": "estimated hardware <= dry budgets; missing hardware still requires design",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "tank_capacity",
+      "status": "PASS",
+      "value": 0.0,
+      "criterion": "mass-volume equality <0.01 kg",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "diameter",
+      "status": "PASS",
+      "value": 3.958,
+      "criterion": "installed tanks inside 4 m envelope",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "engine_installation",
+      "status": "OPEN",
+      "value": 4.748593038111737,
+      "criterion": "4 m radial and pairwise gimbal clearance; assumed supplier dimensions",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "orbit_injection",
+      "status": "PASS",
+      "value": 399999.99999988545,
+      "criterion": "altitude \u00b12 km, speed \u00b12 m/s, radial speed <2 m/s, inclination \u00b10.1 deg",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "ascent_integration_refinement",
+      "status": "PASS",
+      "value": 479.4115440928071,
+      "criterion": "doubled fraction resolution: <1000 m and <2 m/s",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "dynamic_pressure",
+      "status": "PASS",
+      "value": 32903.64892826528,
+      "criterion": "<= 45000.0 Pa",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "q_alpha",
+      "status": "PASS",
+      "value": 3000.000000000082,
+      "criterion": "<= 3000.0 Pa rad",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "crew_acceleration",
+      "status": "PASS",
+      "value": 3.5006116704605668,
+      "criterion": "<= 3.5 g; physiological qualification not established",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "phasing_shooting",
+      "status": "PASS",
+      "value": 2.184782717992487e-06,
+      "criterion": "<10 m endpoint miss before velocity-match impulse",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "phasing_orbit_clearance",
+      "status": "PASS",
+      "value": 242096.32882029284,
+      "criterion": "screening perigee >180 km",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "spacecraft_delta_v",
+      "status": "PASS",
+      "value": 161.89793534254235,
+      "criterion": "within allocated 300 m/s; no double counting launcher ideal reserve",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "spacecraft_propellant",
+      "status": "PASS",
+      "value": 628.5300888816084,
+      "criterion": "required propellant <= included payload propellant",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "approach_thrust",
+      "status": "PASS",
+      "value": 17.646708341798625,
+      "criterion": "prescribed-path demand <= assumed available thrust",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "structural_screens",
+      "status": "OPEN",
+      "value": -0.6775062093333608,
+      "criterion": "all calculated metallic and buckling margins >=0; qualification work remains",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "TPS_ascent",
+      "status": "PASS",
+      "value": 422.9952987887043,
+      "criterion": "bondline <= assumed 423 K for ascent only",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "cryo_boiloff_reserve",
+      "status": "OPEN",
+      "value": 0.02656666678495702,
+      "criterion": "pad+ascent boiloff <= selected 1% liquid reserve; operational loading must account for losses",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "POGO_assumed_loop",
+      "status": "OPEN",
+      "value": "RHP_INSTABILITY",
+      "criterion": "no unstable roots in supplied scalar delay loop; not flight validation",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "Euler_iterations",
+      "status": "PASS",
+      "value": 6,
+      "criterion": "6 admissible cases must meet residual + force criteria",
+      "scope": "conceptual numerical/model check"
+    },
+    {
+      "check": "human_rating",
+      "status": "OPEN",
+      "value": "NOT_ESTABLISHED",
+      "criterion": "hazard analysis, abort/escape, FDIR, ECLSS, qualification, fracture control, contact dynamics and test evidence required",
+      "scope": "program verification gate"
+    },
+    {
+      "check": "viscous_separated_CFD",
+      "status": "OPEN",
+      "value": "NOT_IMPLEMENTED",
+      "criterion": "3-D transition/RANS/URANS, base/plume and incidence validation required",
+      "scope": "requested higher fidelity analysis"
+    },
+    {
+      "check": "aeroelastic_stability",
+      "status": "OPEN",
+      "value": "NOT_ESTABLISHED",
+      "criterion": "two-way aerodynamic/structural/control coupling and flutter/divergence analysis required",
+      "scope": "requested higher fidelity analysis"
+    }
+  ],
+  "figures": [
+    "01_mission_overview.png",
+    "02_mass_and_staging.png",
+    "03_dimensioned_vehicle.png",
+    "04_engine_installation.png",
+    "05_ascent_time_histories.png",
+    "06_propulsion_and_velocity_ledger.png",
+    "07_orbit_and_phasing.png",
+    "08_ground_tracks.png",
+    "09_rendezvous_history.png",
+    "10_docking_feasibility.png",
+    "11_aerodynamic_mach_sweep.png",
+    "12_aero_polars_and_viscous_estimates.png",
+    "13_aerodynamic_loads.png",
+    "14_ground_wind_loads.png",
+    "15_section_load_envelopes.png",
+    "16_structural_margins_and_mass.png",
+    "17_vehicle_mode_shapes.png",
+    "18_acoustics_buffet_and_slosh.png",
+    "19_pogo_feedback.png",
+    "20_ascent_thermal_and_TPS.png",
+    "21_cryo_insulation_and_vents.png",
+    "22_stage_separation.png",
+    "23_computed_Euler_fields.png",
+    "24_FVM_grid.png",
+    "25_CFD_convergence.png",
+    "26_surface_pressure_and_incidence.png",
+    "27_CFD_grid_sensitivity.png",
+    "28_structural_elements.png",
+    "29_design_iteration_histories.png",
+    "30_redundancy_and_engine_thrust.png",
+    "31_shock_and_sonic_diagnostics.png",
+    "32_pogo_oscillation_history.png"
+  ],
+  "animations": [
+    {
+      "animation": "ascent_time_history",
+      "gif": true,
+      "mp4": true
+    },
+    {
+      "animation": "prescribed_docking_approach",
+      "gif": true,
+      "mp4": true
+    },
+    {
+      "animation": "mission_state_replay",
+      "gif": true,
+      "mp4": true
+    },
+    {
+      "animation": "computed_Euler_condition_sweep",
+      "gif": true,
+      "mp4": true
+    }
+  ],
+  "runtime_s": 326.0833601951599,
+  "source_files_sha256": {
+    "verify_results.py": "8c59bf096e76de0420ec57992be3610f690e3c3a1ff819c6266cb38eecc6c21c",
+    "regenerate_inputs.py": "67bb65249c6329cc233763392939f79538ada9182dbf07893974047be993aed0",
+    "redraw_figures.py": "76cd54899e6e04d2a607a48cae7c55b8de5e3486e27fadfa7bfe241b6047f745",
+    "full_mission_design.py": "4bf3dad5443a85264f88c3a397afe496faacb4e124ea3b421d3bf40d62ea974f",
+    "tests/test_physics.py": "cd8f593249502bc6e7fe831d46d85e1934941dc6668847456acfd7be48f6c5e7",
+    "tara/aerodynamics.py": "71ea7f01e0ea8cfaf73a63648dca81b9a977e2ad147267c88c6fa0e1ef83afd8",
+    "tara/orbits.py": "9ee43d68b3b2ecd1019c48b12bbe159d83360e63a739787d43b3b576e5b8c99b",
+    "tara/rendezvous.py": "86b336d7ac3ac7e7bca42f12d7c271715afa9302e501bbeb2497e577b700981c",
+    "tara/cfd.py": "0d0abcc25eb042842cfed42129bde1987076de63dfa02bdafda95a3b3e4e4686",
+    "tara/figures.py": "f7ceeb27eda02cbfb5b2c031689526bc5bce57e6cdf87d56c535a12d917ad2c8",
+    "tara/environment.py": "13a5b84bb0b10f707383ff29ef962ccbb05e060258aedcf5a27bf671c874d633",
+    "tara/pipeline.py": "cdd110a1bd89a5d1c130680765011cbb44334757de362e0ed321da4115c06fe7",
+    "tara/pogo.py": "3852ae4d28f0cc3bdca9a4a1e957f8afb9ad76146ff1f1f7e8f9c8f85b8bfdb8",
+    "tara/report.py": "d50fa291b1477a8e7f900c545fd199b722143e4031aafeceaa44ee57c84669cd",
+    "tara/dynamics.py": "47f2f3c8918fbf86bef01cc720fe57ccc9ece611b59cea02ccc035170c1781c7",
+    "tara/ascent.py": "17aa872e73be7493859a88faccd1f989e34fd382fe0675017f607bb737447ef6",
+    "tara/__init__.py": "4180cf387ed3c8523312b52420bacf997eb68e35f9bffa51f89dd3105d5088d4",
+    "tara/thermal.py": "74e5e7d36481538ec81b44b31d46290fb8415348f1a5760c0914405c04411c30",
+    "tara/beam.py": "d7fdbb57821087037d6ea9fab5213f7362882260364fbb83afa9408233c2b126",
+    "tara/flow.py": "d1421ebccfe6d4b05c5ca397668116c63f83165c2dcde2488e404b1b66323f4b",
+    "tara/io.py": "19c46bdf8db3b49bd917514ce24e2a8920cdf03164d4bbed07e400ef3f2ab2bb",
+    "tara/geometry.py": "8f23571b2bd617be159f96f0edff34426d961e7b744999a20362866ea556d2ca",
+    "tara/structures.py": "0b2c22efb5d91d1719b855cb74e8b50d2cd0442febda239a04d4277467f6a2ab",
+    "tara/sizing.py": "860a7e5358f569ad352bcdc71239dbceaf75fbe4dd9904607e21fdf229eb39e3"
+  },
+  "verification": {
+    "physics_tests_passed": 10,
+    "input_tables_reproduce_exactly": 14,
+    "output_integrity": "PASS",
+    "finite_numeric_values_checked": 227583,
+    "png_files": 32,
+    "gif_files": 4,
+    "mp4_files": 4,
+    "ascent_reproduction_difference": 0.0
+  }
+}

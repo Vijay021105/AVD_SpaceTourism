@@ -1,0 +1,5 @@
+{
+  "check": "Removed unconsumed legacy seed fields; re-integrated final trajectory",
+  "position_velocity_combined_difference": 0.0,
+  "pass_check": true
+}

@@ -1,0 +1,3 @@
+material,E_Pa,nu,density_kgm3,yield_Pa,ultimate_Pa,k_WmK,cp_JkgK,source
+Al2219_weld_proxy,73000000000.0,0.33,2840,150000000.0,250000000.0,120,900,Conceptual design assumption; replace with qualified data
+TPS_silica_proxy,10000000.0,0.2,150,1000000.0,1500000.0,0.08,1000,Conceptual design assumption; replace with qualified data

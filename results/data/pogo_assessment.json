@@ -1,0 +1,42 @@
+{
+  "status": "RHP_INSTABILITY",
+  "open_loop_RHP_poles": 0,
+  "closed_loop_RHP_roots": 2,
+  "nyquist_radius_radps": 125.66370614359178,
+  "nyquist_samples": 4097,
+  "high_frequency_bound": 0.06666666666666653,
+  "minimum_sampled_distance_to_minus_one": 0.9042102878756676,
+  "eigenvalue_scope": "subset_checked_against_exact_delay_characteristic",
+  "eigenvalues": [
+    {
+      "real_per_s": 5.277615832162695,
+      "imag_radps": -48.7774518401091,
+      "characteristic_residual": 2.0108909744775923e-15
+    },
+    {
+      "real_per_s": 5.277615832162695,
+      "imag_radps": 48.7774518401091,
+      "characteristic_residual": 2.0108909744775923e-15
+    },
+    {
+      "real_per_s": -6.091792805263003,
+      "imag_radps": 67.3775906865076,
+      "characteristic_residual": 2.482534153247273e-15
+    },
+    {
+      "real_per_s": -6.091792805263004,
+      "imag_radps": -67.3775906865076,
+      "characteristic_residual": 2.433010126791216e-15
+    },
+    {
+      "real_per_s": -308.5590789787175,
+      "imag_radps": -171.04635479117167,
+      "characteristic_residual": 1.7759751592303307e-14
+    },
+    {
+      "real_per_s": -308.5590789787175,
+      "imag_radps": 171.04635479117167,
+      "characteristic_residual": 1.7759751592303307e-14
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+parameter,value,unit,source
+vertical_time_s,12,s,Conceptual design assumption; replace with qualified data
+pitch_fraction_1,0.3,fraction,Conceptual design assumption; replace with qualified data
+pitch_fraction_2,0.65,fraction,Conceptual design assumption; replace with qualified data
+pitch1_deg,75.820312773394,deg above horizon,Conceptual design assumption; replace with qualified data
+pitch2_deg,63.137495236892,deg above horizon,Conceptual design assumption; replace with qualified data
+pitch3_deg,39.532002192597,deg above horizon,Conceptual design assumption; replace with qualified data
+stage2_end_deg,27.844135309831,deg above horizon,Conceptual design assumption; replace with qualified data
+stage3_start_deg,32.362898366654,deg above horizon,Conceptual design assumption; replace with qualified data
+stage3_end_deg,10.885174407469,deg above horizon,Conceptual design assumption; replace with qualified data
+coast12_s,3,s,Conceptual design assumption; replace with qualified data
+coast23_s,134.90339451515,s,Conceptual design assumption; replace with qualified data
+plane_trim_deg,0.10560784273312,deg,Numerical yaw-plane trim; BAS orbit remains fixed
+stage3_use_fraction,0.78977012939938,fraction,Conceptual design assumption; replace with qualified data
+q_throttle_on_fraction,0.75,fraction,Conceptual design assumption; replace with qualified data
+q_controller_gain,0.65,gain,Conceptual design assumption; replace with qualified data

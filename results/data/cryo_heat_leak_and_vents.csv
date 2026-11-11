@@ -1,0 +1,5 @@
+tank,heat_leak_W,pad_plus_flight_boiloff_kg,boiloff_fraction,available_reserve_kg,reserve_covers_boiloff,vent_area_m2,equivalent_vent_diameter_m,note
+S1_LOX,35974.09658477529,778.3675671537537,0.0022544604270249573,3452.5669992837584,True,0.0003058202466660507,0.019732775568476867,Isothermal latent-heat upper screen; no two-phase flow or pressurization control
+S2_LOX,11410.398745156084,246.88554139480874,0.0025217057422443454,979.0418337037133,True,9.700121170738295e-05,0.011113315375398442,Isothermal latent-heat upper screen; no two-phase flow or pressurization control
+S3_LH2,13094.829670331943,135.3129722346125,0.02656666678495702,50.93336447884062,False,0.00025418032894115986,0.01798978727783284,Isothermal latent-heat upper screen; no two-phase flow or pressurization control
+S3_LOX,4278.2306977561375,92.56760658568606,0.0035988628109367093,257.2134906181451,True,3.636976856941479e-05,0.006804956103858784,Isothermal latent-heat upper screen; no two-phase flow or pressurization control

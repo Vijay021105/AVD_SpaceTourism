@@ -1,0 +1,11 @@
+topic,chapters,implementation,scope
+Mission definition and coupling,"2, 7, 8",inputs/mission.csv; tara/pipeline.py,Implemented dependency chain; open gates retained
+"Orbit, J2 and injection","3, 4, 6",tara/orbits.py; tara/rendezvous.py,Numerical ECI J2; spherical surface and GMST
+Staging and mass allocation,5,tara/sizing.py,Constrained numerical optimization plus hardware dry floors
+Propulsion,9,inputs/engines.csv; tara/ascent.py,Existing-engine performance proxy; no engine internal design
+Aerodynamics,10,tara/aerodynamics.py; tara/cfd.py,Engineering database plus inviscid axisymmetric Euler fields
+Structures and materials,11,tara/structures.py; tara/beam.py,"Section cuts, metallic screening, beam modes; detailed shell FEM open"
+Thermal,12,tara/thermal.py,"Ascent heating, conduction TPS, heat leak, ideal gas vent sizing"
+Stage auxiliary systems,13,tara/dynamics.py,Separation impulse and tip-off screens
+Guidance and redundancy,14,tara/ascent.py; inputs/human_rating.csv,Point-mass targeting and illustrative channel reliability; full GNC open
+Re-entry,15,Not included,Excluded by requested scope

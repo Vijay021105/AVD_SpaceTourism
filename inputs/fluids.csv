@@ -1,0 +1,4 @@
+fluid,density_kgm3,temperature_K,pressure_abs_Pa,latent_Jkg
+RP1,810,293,250000,0
+LOX,1141,90,300000,213000
+LH2,70.85,20.3,250000,446000

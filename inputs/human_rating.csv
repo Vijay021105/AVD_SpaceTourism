@@ -1,0 +1,5 @@
+function,channels,required_healthy,unit_failure_probability,common_cause_beta,mass_allowance_kg,status
+flight_computers,3,2,0.001,0.05,120,illustrative independent-channel screen
+IMU_navigation,3,2,0.002,0.05,60,illustrative independent-channel screen
+power_buses,2,1,0.001,0.1,200,illustrative independent-channel screen
+separation_initiation,2,1,0.005,0.1,60,illustrative independent-channel screen

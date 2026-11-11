@@ -1,0 +1,15 @@
+test_equal_state_flux_is_physical_flux (test_physics.PhysicsTests.test_equal_state_flux_is_physical_flux) ... ok
+test_gravity_points_inward (test_physics.PhysicsTests.test_gravity_points_inward) ... ok
+test_j2_regresses_node_at_expected_rate (test_physics.PhysicsTests.test_j2_regresses_node_at_expected_rate) ... ok
+test_mass_ratios_include_reserve (test_physics.PhysicsTests.test_mass_ratios_include_reserve) ... ok
+test_outer_nose_curvature_matches_thermal_input (test_physics.PhysicsTests.test_outer_nose_curvature_matches_thermal_input) ... ok
+test_ring_metrics_and_static_pressure_balance (test_physics.PhysicsTests.test_ring_metrics_and_static_pressure_balance) ... ok
+test_tank_volumes_and_envelope (test_physics.PhysicsTests.test_tank_volumes_and_envelope) ... ok
+test_two_body_exact_circular_period (test_physics.PhysicsTests.test_two_body_exact_circular_period) ... ok
+test_vent_no_reverse_flow_and_choking (test_physics.PhysicsTests.test_vent_no_reverse_flow_and_choking) ... ok
+test_zero_heat_ambient_equilibrium (test_physics.PhysicsTests.test_zero_heat_ambient_equilibrium) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.648s
+
+OK

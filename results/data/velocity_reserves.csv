@@ -1,0 +1,3 @@
+owner,reserve_mps,propellant_kg,note
+launcher_S3,1298.7067073831442,6413.358180116777,unused launcher ideal capability at injection; stays with separated S3
+crew_spacecraft,138.10206465745765,571.4699111183916,remaining allocated maneuver budget; payload propulsion only

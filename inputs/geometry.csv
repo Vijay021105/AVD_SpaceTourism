@@ -1,0 +1,13 @@
+parameter,value,unit,source
+skin_m,0.006,m,Conceptual design assumption; replace with qualified data
+radial_clearance_m,0.015,m,Conceptual design assumption; replace with qualified data
+tank_gap_m,0.35,m,Conceptual design assumption; replace with qualified data
+ullage_fraction,0.03,fraction,Conceptual design assumption; replace with qualified data
+dome_depth_over_radius,0.5,ratio,2:1 ellipsoidal heads
+cryo_insulation_m,0.05,m,Conceptual design assumption; replace with qualified data
+rp1_insulation_m,0.02,m,Conceptual design assumption; replace with qualified data
+capsule_length_m,4.4,m,Concept capsule envelope; not Dragon production geometry
+trunk_length_m,3.7,m,Conceptual design assumption; replace with qualified data
+capsule_base_radius_m,1.9,m,Conceptual design assumption; replace with qualified data
+nose_radius_m,0.25,m,Conceptual design assumption; replace with qualified data
+engine_clearance_m,0.025,m,Conceptual design assumption; replace with qualified data

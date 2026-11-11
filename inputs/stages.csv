@@ -1,0 +1,4 @@
+stage,engine_id,engine_count,epsilon,epsilon_low,epsilon_high,fixed_dry_allowance_kg,reserve_fraction,initial_prop_kg,isp_sizing_s,engine_bay_m,interstage_m,source
+1,M1D_standard,10,0.065,0.06,0.09,800,0.01,340000,295,3.5,2.5,Selected optimistic structural factors; bounded sensitivity; Ch5 methodology. Not measured human-rated fractions
+2,M1D_standard,2,0.06,0.05,0.09,400,0.01,110000,311,3.4,2.3,Selected optimistic structural factors; bounded sensitivity; Ch5 methodology. Not measured human-rated fractions
+3,CE32_project_CE20_proxy,1,0.11,0.09,0.16,250,0.01,24000,442.5,3.7,0.8,Selected optimistic structural factors; bounded sensitivity; Ch5 methodology. Not measured human-rated fractions

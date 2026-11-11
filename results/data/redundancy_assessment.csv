@@ -1,0 +1,5 @@
+function,channels,required_healthy,unit_failure_probability,common_cause_beta,mass_allowance_kg,status,independent_function_failure_probability,illustrative_common_cause_function_failure_probability,qualification_status
+flight_computers,3.0,2.0,0.001,0.05,120.0,illustrative independent-channel screen,2.998e-06,5.28481e-05,NOT_A_CREW_LOSS_PROBABILITY
+IMU_navigation,3.0,2.0,0.002,0.05,60.0,illustrative independent-channel screen,1.1983999999999999e-05,0.0001113848,NOT_A_CREW_LOSS_PROBABILITY
+power_buses,2.0,1.0,0.001,0.1,200.0,illustrative independent-channel screen,1e-06,0.0001009,NOT_A_CREW_LOSS_PROBABILITY
+separation_initiation,2.0,1.0,0.005,0.1,60.0,illustrative independent-channel screen,2.5e-05,0.0005225,NOT_A_CREW_LOSS_PROBABILITY

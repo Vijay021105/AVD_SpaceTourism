@@ -1,0 +1,4 @@
+stage,bay_volume_m3,vent_area_m2,equivalent_diameter_m,allowable_diff_pressure_Pa,note
+1,31.41592653589793,0.02494410563629862,0.1782128550475152,3000.0,Quasi-steady ideal-gas vent sizing; detailed transient valves not modeled
+2,28.902652413026093,0.022948577185394725,0.17093576561928672,3000.0,Quasi-steady ideal-gas vent sizing; detailed transient valves not modeled
+3,10.053096491487338,0.007982113803615555,0.10081241463897056,3000.0,Quasi-steady ideal-gas vent sizing; detailed transient valves not modeled

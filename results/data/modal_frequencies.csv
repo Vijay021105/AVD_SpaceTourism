@@ -1,0 +1,23 @@
+state,mode,frequency_Hz,axial_kinetic_fraction,eigen_residual,boundary,note
+wet,1,0.5623882750678398,6.09338243695518e-27,4.234637083055512e-11,free-free,homogenized beam; liquids rigidly attached
+wet,2,1.438458862697094,8.298071682125962e-27,6.0199286870899674e-12,free-free,homogenized beam; liquids rigidly attached
+wet,3,2.6770073191602517,5.233255957499035e-26,1.3886570956160233e-12,free-free,homogenized beam; liquids rigidly attached
+wet,4,4.395436164905042,3.290491860880116e-25,7.909017738436508e-13,free-free,homogenized beam; liquids rigidly attached
+wet,5,5.080572851131281,1.0,5.655478710703194e-13,free-free,homogenized beam; liquids rigidly attached
+wet,6,6.45560867122039,3.1997838322805196e-26,3.1255392211955476e-13,free-free,homogenized beam; liquids rigidly attached
+wet,7,8.692928757755983,1.8927575965829945e-26,2.384554790654159e-13,free-free,homogenized beam; liquids rigidly attached
+wet,8,9.792092468839702,1.0000000000000004,1.437512222012816e-13,free-free,homogenized beam; liquids rigidly attached
+dry,1,1.4811505232987323,2.126976548471938e-27,3.845762613738836e-11,free-free,homogenized beam; liquids rigidly attached
+dry,2,4.37253585790523,1.0815330904570922e-27,5.191533548857595e-12,free-free,homogenized beam; liquids rigidly attached
+dry,3,8.49090199549591,3.2563060382631797e-28,1.4224584965078231e-12,free-free,homogenized beam; liquids rigidly attached
+dry,4,14.005651116230055,7.040065288522949e-24,4.973801765913091e-13,free-free,homogenized beam; liquids rigidly attached
+dry,5,14.14610476454548,0.9999999999999998,2.808271837848104e-13,free-free,homogenized beam; liquids rigidly attached
+dry,6,19.937010574443324,2.8810677512293753e-27,2.2510195105071306e-13,free-free,homogenized beam; liquids rigidly attached
+dry,7,27.094288963100592,4.744941536887228e-27,1.306993989542554e-13,free-free,homogenized beam; liquids rigidly attached
+dry,8,28.601298923838943,0.9999999999999999,8.099074370403093e-14,free-free,homogenized beam; liquids rigidly attached
+ground_wet,1,0.10545088923728524,,,cantilever,
+ground_wet,2,0.5483465290222558,,,cantilever,
+ground_wet,3,1.4229269721282642,,,cantilever,
+ground_wet,4,2.5855306512757683,,,cantilever,
+ground_wet,5,2.6380120418358617,,,cantilever,
+ground_wet,6,4.311520706248493,,,cantilever,
